@@ -201,7 +201,7 @@ if(isset($_SESSION["id"])){
     <div class="float-right d-none d-sm-block">
       <b>Version</b> 3.1.0
     </div>
-    <strong>Copyright &copy; 2024 <a href="maria">Maria Jose </a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2024 <a href="https://github.com/mariajoseRodri">Maria Jose </a>.</strong> All rights reserved.
   </footer>
 
   <!-- Control Sidebar -->
