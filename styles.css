@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1edef;
+    color: #000000;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  .brand {
+    margin-top: -7px;
+  }
+  .brand span {
+    color: rgb(195, 38, 235);
+  }
+  .menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  .menu  li {
+    list-style: none;
+  
+  }
+  .menu a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px; 
+  }
+  
+  .menu li:hover a{
+    background-color: rgb(195, 38, 235);
+    color: #191c32;
+  }
+  
+  .menu .active {
+    color: #000;  
+  }
+    
+  .menu li a:hover {
+    color: #fff;
+  }
+  
+  .main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2em;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  .info-content span {
+    color: rgb(195, 38, 235);
+  }
+  
+  .main img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  
+  .about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: last baseline ;
+    background-color: #d16bfa;
+  }
+  
+  .about-info {
+    grid-column: 5/10;
+    padding: 3em;
+  }
+  
+  .about-info h2 {
+    font-size: 2.5em;
+    color: #0f0f0f;
+  }
+  
+  .about-info h3 {
+    font-size: 2em;
+    color: #050505;
+  }
+  
+  .divider {
+    height: 4px;
+    width: 60px;
+    margin-top: 5px;
+    margin-bottom: 0 auto;
+  }
+  
+  .about p {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .portfolio,
+  .contact-section {
+    width: 100vw;
+    background-color: #dc95ff;
+    color: black;
+  }
+  
+  .portfolio-heading h2,
+  .contact-heading h2 {
+    font-size: 2.5em;
+    color: #080808;
+  }
+  .card__title{
+    margin-inline-start: 25%;
+  }
+
+  .container-contact {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 3em;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #000000;
+    color: #000000;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 5em;
+    background: none;
+    border:#000000;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+  }
+  
+  .form-group .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(241, 248, 248);
+  }
+
+  .footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+    background-color: rgb(241, 241, 241);
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .sotial-networks { 
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+  }
+  
+  .sotial-networks i {
+    font-size: 1.5em;   
+  }
+  
+  .portfolio{
+    background-color: #ffffff;
+    color:#000000;
+  }
+
+  .contact-section {
+    width: 100vw;
+    background-color: (195, 38, 235);
+    color:#000000;
+  }
+  
+  .portfolio-heading h2,
+  .contact-heading h2 {
+    font-size: 2.5em;
+    color: rgb(195, 38, 235);
+  }
+  
+  .portfolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-inline-start: 5em;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 350px;
+    background-color:#ffffff;
+    margin-inline: 3em;
+    margin-right: 2em;
+  }
+  
+  .card__img {
+    width: 120%;
+    height: 440px;
+  }
+
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+
+  .project-details-button a {
+    text-decoration: none;
+    color:black;
+  }
+   
+  .contact-section img {
+    width: 550px;
+    height: 500px;
+    bottom: 0px;
+    margin: 5em ;
+    border-radius: 50%;
+    z-index: auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 3em;
+ }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
